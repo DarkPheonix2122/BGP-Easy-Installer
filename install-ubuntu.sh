@@ -35,16 +35,13 @@ cd
 
 echo "please create database with 'CREATE DATABASE brightgamepanel'"
 
-mysql
-
-CREATE DATABASE brightgamepanel;
-
-\q
-
 echo "please configure your root password for mysql"
 
 nano /var/www/html/configuration.php
 
 systemctl restart apache2
+
+echo "please create database using 'mysql' with 'CREATE DATABASE brightgamepanel'"
+
 
 echo "Please visit yourip/domain to finish install!"
