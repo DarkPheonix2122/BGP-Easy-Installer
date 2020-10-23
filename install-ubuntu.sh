@@ -33,10 +33,6 @@ cd
 
 sudo apt-get -y install gcc make autoconf libc-dev pkg-config
 
-sudo apt-get -y install libmcrypt-dev
-
-sudo pecl install mcrypt-1.0.1
-
 echo "please create database with 'CREATE DATABASE brightgamepanel'"
 
 mysql
