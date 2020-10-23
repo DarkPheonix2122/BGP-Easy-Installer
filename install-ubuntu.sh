@@ -41,4 +41,6 @@ echo "please configure your root password for mysql"
 
 nano /var/www/html/configuration.php
 
+systemctl restart apache2
+
 echo "Please visit yourip/domain to finish install!"
