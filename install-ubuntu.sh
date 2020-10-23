@@ -29,6 +29,8 @@ mv html htm1
 
 git clone https://github.com/DarkPheonix2122/Bright-Game-Panel.git html
 
+chmod 0777 /var/www/html/.ssh/passphrase
+
 cd
 
 echo "please create database with 'CREATE DATABASE brightgamepanel'"
