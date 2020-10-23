@@ -37,7 +37,7 @@ echo "please create database with 'CREATE DATABASE brightgamepanel'"
 
 mysql
 
-echo "please configure your root password"
+echo "please configure your root password for mysql"
 
 nano /var/www/html/configuration.php
 
