@@ -34,6 +34,7 @@ sudo apt-get -y install libmcrypt-dev
 sudo pecl install mcrypt-1.0.1
 
 echo "please create database with 'CREATE DATABASE brightgamepanel'"
+
 mysql
 
 echo "please configure your root password"
