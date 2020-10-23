@@ -31,8 +31,6 @@ git clone https://github.com/DarkPheonix2122/Bright-Game-Panel.git html
 
 cd
 
-sudo apt-get -y install gcc make autoconf libc-dev pkg-config
-
 echo "please create database with 'CREATE DATABASE brightgamepanel'"
 
 mysql
